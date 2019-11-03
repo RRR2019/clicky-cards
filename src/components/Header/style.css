@@ -1,0 +1,10 @@
+#title, #sub{
+  font-family: 'Crete Round', serif;
+  color: white;
+}
+#sub{
+  font-size: 1.5em;
+}
+.jumbotron{
+  background-color: rgb(118, 118, 211);
+}

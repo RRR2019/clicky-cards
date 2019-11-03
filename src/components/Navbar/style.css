@@ -1,0 +1,23 @@
+#score, #topScore{
+  color: white;
+  font-family: 'Crete Round', serif;
+  font-size: 2em;
+}
+
+.navbar{
+  background-color: rgb(11, 11, 80)
+}
+
+#clicky{
+  font-family: 'Crete Round', serif;
+  font-size: 2em;
+}
+
+#clicky:hover{
+  color: white;
+}
+
+#navbarNavDropdown{
+  margin-left: 60%;
+  color: white;
+}
