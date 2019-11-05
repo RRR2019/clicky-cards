@@ -15,10 +15,7 @@ class App extends Component {
   };
   
 //Shuffle code based on: https://stackoverflow.com/questions/38101522/how-to-render-random-objects-from-an-array-in-react
- shuffleCharacters=(id) => {
-
-    const characters = this.state.characters;
-    console.log(this.state.clickyArray);
+ shuffleCharacters= characters => {
     let i = characters.length - 1;
     for (i; i > 0; i--) {
       const j = Math.floor(Math.random() * (i + 1));
@@ -28,20 +25,54 @@ class App extends Component {
       
     }
     this.setState ({characters});  
-    //this.clicky(id);
 }
 
 clicky= id =>{
-    if(true){
-        alert("you lose")
-        this.setState({ score: 0 });
-        this.setState({ topScore: this.state.topScore})  
+  let notClicked = false;
+  const newCharacters = this.state.characters.map( character =>{
+    if(character.id === id){
+      if(!character.clicked){
+          character.clicked=true;
+          notClicked = true;
+      }
     }
-    else{
-        this.setState({ score: this.state.score + 1 });
-        this.setState({ topScore: this.state.topScore + 1 });
-    }    
+    console.log(character)
+    return character
+  });
+
+  if(notClicked){
+    this.rightGuess(newCharacters);
+  }
+  else{
+    alert("YOU LOST :(")
+    this.reset(newCharacters)
+  }
 }
+
+rightGuess = newCharacters =>{
+  if(this.state.score>11){
+    alert("You Win :)")
+    this.reset(newCharacters)
+  }
+  else{
+  this.setState ({ score: this.state.score + 1 });  
+  this.shuffleCharacters(newCharacters)
+  if(this.state.score > this.state.topScore){
+    this.setState({topScore: this.state.score +1})
+  }
+}
+}
+
+reset = newCharacters =>{
+  const resetCharacters = newCharacters.map(character => {
+    character.clicked = false;
+    return character;
+  })
+  
+  this.shuffleCharacters(resetCharacters)
+  this.setState({score: 0})
+}
+
 
   render() {
     return (<div>
@@ -50,7 +81,7 @@ clicky= id =>{
             <main>
             <div className="container col-9">
             {this.state.characters.map(character =>(
-            <Cards name={character.name} id={character.id} shuffleCharacters={this.shuffleCharacters}/>
+            <Cards name={character.name} id={character.id} clicky={this.clicky}/>
             ))}
             </div>
             </main>

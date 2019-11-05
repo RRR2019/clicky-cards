@@ -1,51 +1,63 @@
 [
     {
       "id": 1,
-      "name": "michael"
+      "name": "michael",
+      "clicked": false
     },
     {
         "id": 2,
-        "name": "jim"
+        "name": "jim",
+        "clicked": false
     },
     {
         "id": 3,
-        "name": "pam"
+        "name": "pam",
+        "clicked": false
     },
     {
         "id": 4,
-        "name": "dwight"
+        "name": "dwight",
+        "clicked": false
     },
     {
         "id": 5,
-        "name": "kevin"
+        "name": "kevin",
+        "clicked": false
     },
     {
         "id": 6,
-        "name": "phyllis"
+        "name": "phyllis",
+        "clicked": false
     },
     {
         "id": 7,
-        "name": "prisMike"
+        "name": "prisMike",
+        "clicked": false
     },
     {
         "id": 8,
-        "name": "angela"
+        "name": "angela",
+        "clicked": false
     },
     {
         "id": 9,
-        "name": "creed"
+        "name": "creed",
+        "clicked": false
     },
     {
         "id": 10,
-        "name": "tobby"
+        "name": "tobby",
+        "clicked": false
     },
     {
         "id": 11,
-        "name": "erin"
+        "name": "erin",
+        "clicked": false
     },
     {
         "id": 12,
-        "name": "ryan"
+        "name": "ryan",
+        "clicked": false
     }
   ]
   
