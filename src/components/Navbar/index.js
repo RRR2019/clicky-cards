@@ -3,7 +3,7 @@ import "./style.css";
 
 function Navbar(props) {
   return (
-    <nav className="navbar navbar-expand-lg">
+    <nav className="navbar navbar-expand-lg sticky-top">
     <a className="navbar-brand" href="#" id="clicky">Clicky-Game</a>
 
     <div className="collapse navbar-collapse" id="navbarNavDropdown">
