@@ -36,7 +36,6 @@ clicky= id =>{
           notClicked = true;
       }
     }
-    console.log(character)
     return character
   });
 
@@ -50,15 +49,23 @@ clicky= id =>{
 }
 
 rightGuess = newCharacters =>{
-  if(this.state.score>11){
+  let trueArray=[];
+  for(let i=0; i<newCharacters.length; i ++){
+    if(newCharacters[i].clicked){
+      trueArray.push(newCharacters[i])
+    }
+  }
+  console.log(trueArray)
+  if(trueArray.length===12){
     alert("You Win :)")
     this.reset(newCharacters)
   }
   else{
-  this.setState ({ score: this.state.score + 1 });  
+  this.setState ({ score: this.state.score + 1 });
+
   this.shuffleCharacters(newCharacters)
-  if(this.state.score > this.state.topScore){
-    this.setState({topScore: this.state.score +1})
+  if(this.state.score > this.state.topScore || this.state.score===this.state.topScore ){
+    this.setState({topScore: this.state.score + 1})
   }
 }
 }
