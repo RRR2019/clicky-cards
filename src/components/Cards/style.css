@@ -13,41 +13,41 @@
 }
 
 #michael {
-  background-image: url("/assets/images/Michael.png");
+  background-image: url("/assets/michael.png");
 }
 
 #jim {
-  background-image: url("/assets/images/Jim.png");
+  background-image: url("/assets/jim.png");
 }
 #pam {
-  background-image: url("/assets/images/Pam.png");
+  background-image: url("/assets/pam.png");
 }
 #dwight {
-  background-image: url("/assets/images/Dwight.png");
+  background-image: url("/assets/dwight.png");
 }
 #kevin {
-  background-image: url("/assets/images/Kevin.png");
+  background-image: url("/assets/kevin.png");
 }
 #phyllis {
-  background-image: url("/assets/images/Phyllis.png");
+  background-image: url("/assets/phyllis.png");
 }
 #prisMike {
-  background-image: url("/assets/images/Prisonmike.png");
+  background-image: url("/assets/prisonmike.png");
 }
 #angela {
-  background-image: url("/assets/images/Angela.png");
+  background-image: url("/assets/angela.png");
 }
 #creed {
-  background-image: url("/assets/images/Creed.png");
+  background-image: url("/assets/creed.png");
 }
 #tobby {
-  background-image: url("/assets/images/Tobby.png");
+  background-image: url("/assets/tobby.png");
 }
 #erin {
-  background-image: url("/assets/images/Erin.png");
+  background-image: url("/assets/erin.png");
 }
 #ryan {
-  background-image: url("/assets/images/Ryan.png");
+  background-image: url("/assets/ryan.png");
 }
 .click-item {
   background-size: cover;
