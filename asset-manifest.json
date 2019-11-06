@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/clicky-cards/static/css/main.bc72587d.chunk.css",
+    "main.css": "/clicky-cards/static/css/main.118bbc32.chunk.css",
     "main.js": "/clicky-cards/static/js/main.af285f76.chunk.js",
     "main.js.map": "/clicky-cards/static/js/main.af285f76.chunk.js.map",
     "runtime-main.js": "/clicky-cards/static/js/runtime-main.6400d51c.js",
@@ -8,14 +8,14 @@
     "static/js/2.33fce524.chunk.js": "/clicky-cards/static/js/2.33fce524.chunk.js",
     "static/js/2.33fce524.chunk.js.map": "/clicky-cards/static/js/2.33fce524.chunk.js.map",
     "index.html": "/clicky-cards/index.html",
-    "precache-manifest.7c666cc9d616a5ca515bb12fbb71e45b.js": "/clicky-cards/precache-manifest.7c666cc9d616a5ca515bb12fbb71e45b.js",
+    "precache-manifest.7412d2a4c191dd74186fe7b7225949ef.js": "/clicky-cards/precache-manifest.7412d2a4c191dd74186fe7b7225949ef.js",
     "service-worker.js": "/clicky-cards/service-worker.js",
-    "static/css/main.bc72587d.chunk.css.map": "/clicky-cards/static/css/main.bc72587d.chunk.css.map"
+    "static/css/main.118bbc32.chunk.css.map": "/clicky-cards/static/css/main.118bbc32.chunk.css.map"
   },
   "entrypoints": [
     "static/js/runtime-main.6400d51c.js",
     "static/js/2.33fce524.chunk.js",
-    "static/css/main.bc72587d.chunk.css",
+    "static/css/main.118bbc32.chunk.css",
     "static/js/main.af285f76.chunk.js"
   ]
 }
