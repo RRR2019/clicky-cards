@@ -13,41 +13,41 @@
 }
 
 #michael {
-  background-image: url("/assets/michael.png");
+  background-image: url("/clicky-cards/assets/michael.png");
 }
 
 #jim {
-  background-image: url("/assets/jim.png");
+  background-image: url("/clicky-cards/assets/jim.png");
 }
 #pam {
-  background-image: url("/assets/pam.png");
+  background-image: url("/clicky-cards/assets/pam.png");
 }
 #dwight {
-  background-image: url("/assets/dwight.png");
+  background-image: url("/clicky-cards/assets/dwight.png");
 }
 #kevin {
-  background-image: url("/assets/kevin.png");
+  background-image: url("/clicky-cards/assets/kevin.png");
 }
 #phyllis {
-  background-image: url("/assets/phyllis.png");
+  background-image: url("/clicky-cards/assets/phyllis.png");
 }
 #prisMike {
-  background-image: url("/assets/prisonmike.png");
+  background-image: url("/clicky-cards/assets/prisonmike.png");
 }
 #angela {
-  background-image: url("/assets/angela.png");
+  background-image: url("/clicky-cards/assets/angela.png");
 }
 #creed {
-  background-image: url("/assets/creed.png");
+  background-image: url("/clicky-cards/assets/creed.png");
 }
 #tobby {
-  background-image: url("/assets/tobby.png");
+  background-image: url("/clicky-cards/assets/tobby.png");
 }
 #erin {
-  background-image: url("/assets/erin.png");
+  background-image: url("/clicky-cards/assets/erin.png");
 }
 #ryan {
-  background-image: url("/assets/ryan.png");
+  background-image: url("/clicky-cards/assets/ryan.png");
 }
 .click-item {
   background-size: cover;
